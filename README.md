@@ -21,5 +21,6 @@ python3 Gsub.py -d example.com -p
 ```bash
 python3 Gsub.py -d example.com 
 ```
+![banner](./images/output.png "banner")
 
 
