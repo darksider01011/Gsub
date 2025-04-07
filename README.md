@@ -28,7 +28,9 @@ python3 Gsub.py -d example.com
        / / __ \__ \/ / / / __  |
       / /_/ /___/ / /_/ / /_/ /
       \____//____/\____/_____/
+
          Powered By Google
+
 
 Mode: Normal
 File: output.txt
