@@ -33,7 +33,7 @@ python3 Gsub.py -d example.com
 Mode: Normal
 File: a.txt
 Domain: microsoft.com
-IP: 2.147.191.31
+IP: 255.255.255.255
 =======================================
 Dork: site:*.microsoft.com -www
 
