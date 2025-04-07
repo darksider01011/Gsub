@@ -6,7 +6,7 @@
 ### options
 ```bash
   -d, --domain TARGET  Set target domain
-  -p, --probe          Probe subdomains
+  -p, --probe          Enable probe mode
   -f, --file FILE      Set file name to write results
 ```
 ### Probe Mode
