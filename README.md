@@ -3,11 +3,16 @@
 
 ![banner](./images/new-banner.png "banner")
 
-## Probe Mode
+### Switches
+```bash
+
+```
+### Probe Mode
 ```bash
 python3 Gsub.py -d example.com -p
 ```
-## Normal Mode
+### Normal Mode
 ```bash
 python3 Gsub.py -d example.com 
 ```
+
