@@ -26,11 +26,9 @@ python3 Gsub.py -d example.com
 ```bash
 Mode: Normal
 Domain: apple.com
-IP: 2.147.191.31
+IP: 255.255.255.255
 =======================================
 Dork: site:*.apple.com -www
-Please be patient...
-
 Results:
 
 podcasts.apple.com
@@ -43,7 +41,6 @@ developer.apple.com
 investor.apple.com
 =======================================
 Dork: site:apple.com
-
 Results:
 
 tv.apple.com
@@ -58,7 +55,6 @@ podcasts.apple.com
 locate.apple.com
 =======================================
 Dork: site:*.apple.com
-
 Results:
 
 apple.com
@@ -75,7 +71,6 @@ music.apple.com
 apps.apple.com
 =======================================
 Dork: inurl:apple.com -www site:apple.com
-
 Results:
 
 support.apple.com
@@ -88,13 +83,11 @@ ecommerce.apple.com
 locate.apple.com
 =======================================
 Dork: site:*.*.apple.com
-
 Results:
 
 offer.shazam.apple.com
 replay.music.apple.com
 =======================================
-
 All results for apple.com:
 
 podcasts.apple.com
@@ -118,5 +111,4 @@ offer.shazam.apple.com
 replay.music.apple.com
 
 Number of subdomains: 19
-
 ========================================```
