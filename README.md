@@ -3,9 +3,11 @@
 
 ![banner](./images/new-banner.png "banner")
 
-### Switches
+### options
 ```bash
-
+  -d, --domain TARGET  Set target domain
+  -p, --probe          Probe subdomains
+  -f, --file FILE      Set file name to write results
 ```
 ### Probe Mode
 ```bash
