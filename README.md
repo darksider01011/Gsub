@@ -21,7 +21,7 @@ python3 Gsub.py -d example.com -p
 ```bash
 python3 Gsub.py -d example.com 
 ```
-### apple.com
+# Gsub output
 ```text
 Mode: Normal
 Domain: apple.com
