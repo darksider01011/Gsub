@@ -28,10 +28,7 @@ python3 Gsub.py -d example.com
        / / __ \__ \/ / / / __  |
       / /_/ /___/ / /_/ / /_/ /
       \____//____/\____/_____/
-
-
          Powered By Google
-
 
 Mode: Normal
 File: a.txt
@@ -39,7 +36,6 @@ Domain: microsoft.com
 IP: 2.147.191.31
 =======================================
 Dork: site:*.microsoft.com -www
-Please be patient...
 
 Results:
 
@@ -228,6 +224,5 @@ emails.azure.microsoft.com
 
 Number of subdomains: 54
 
-========================================
 ========================================
 ```
