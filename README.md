@@ -23,97 +23,211 @@ python3 Gsub.py -d example.com
 ```
 ## Gsub output
 ```text
+         ___________ __  ______
+        / ____/ ___// / / / __ )
+       / / __ \__ \/ / / / __  |
+      / /_/ /___/ / /_/ / /_/ /
+      \____//____/\____/_____/
+
+
+         Powered By Google
+
+
 Mode: Normal
-Domain: apple.com
-IP: 255.255.255.255
+File: a.txt
+Domain: microsoft.com
+IP: 2.147.191.31
 =======================================
-Dork: site:*.apple.com -www
+Dork: site:*.microsoft.com -www
+Please be patient...
 
 Results:
 
-podcasts.apple.com
-support.apple.com
-apps.apple.com
-music.apple.com
-jobs.apple.com
-checkcoverage.apple.com
-developer.apple.com
-investor.apple.com
+math.microsoft.com
+account.microsoft.com
+azure.microsoft.com
+create.microsoft.com
+support.microsoft.com
+copilot.microsoft.com
+learn.microsoft.com
+apps.microsoft.com
+devblogs.microsoft.com
+developer.microsoft.com
+adoption.microsoft.com
+techcommunity.microsoft.com
+msdn.microsoft.com
+careers.microsoft.com
+news.microsoft.com
+answers.microsoft.com
 =======================================
-Dork: site:apple.com
+Dork: site:microsoft.com
 
 Results:
 
-tv.apple.com
-developer.apple.com
-apple.com
-support.apple.com
-stocks.apple.com
-beta.apple.com
-itunesconnect.apple.com
-checkcoverage.apple.com
-podcasts.apple.com
-locate.apple.com
+clarity.microsoft.com
+forms.microsoft.com
+apps.microsoft.com
+copilot.microsoft.com
+account.microsoft.com
+word.cloud.microsoft.com
+careers.microsoft.com
+microsoft.com
+developer.microsoft.com
+support.microsoft.com
+visualstudio.microsoft.com
+learn.microsoft.com
+adoption.microsoft.com
+myaccount.microsoft.com
+rewards.microsoft.com
+events.teams.microsoft.com
+krs.microsoft.com
+r.office.microsoft.com
+dotnet.microsoft.com
+msdn.microsoft.com
+create.microsoft.com
+azure.microsoft.com
+appsource.microsoft.com
+go.microsoft.com
 =======================================
-Dork: site:*.apple.com
+Dork: site:*.microsoft.com
 
 Results:
 
-apple.com
-checkcoverage.apple.com
-tv.apple.com
-developer.apple.com
-support.apple.com
-store.apple.com
-stocks.apple.com
-beta.apple.com
-itunesconnect.apple.com
-podcasts.apple.com
-music.apple.com
-apps.apple.com
+clarity.microsoft.com
+forms.microsoft.com
+apps.microsoft.com
+account.microsoft.com
+word.cloud.microsoft.com
+careers.microsoft.com
+microsoft.com
+developer.microsoft.com
+support.microsoft.com
+visualstudio.microsoft.com
+learn.microsoft.com
+adoption.microsoft.com
+myaccount.microsoft.com
+rewards.microsoft.com
+events.teams.microsoft.com
+krs.microsoft.com
+r.office.microsoft.com
+dotnet.microsoft.com
+azureforeducation.microsoft.com
+msdn.microsoft.com
+create.microsoft.com
+azure.microsoft.com
+appsource.microsoft.com
 =======================================
-Dork: inurl:apple.com -www site:apple.com
+Dork: inurl:microsoft.com -www site:microsoft.com
 
 Results:
 
-support.apple.com
-music.apple.com
-developer.apple.com
-discussions.apple.com
-regulatoryinfo.apple.com
-apps.apple.com
-ecommerce.apple.com
-locate.apple.com
+account.microsoft.com
+myaccount.microsoft.com
+support.microsoft.com
+learn.microsoft.com
+unlocked.microsoft.com
+techcommunity.microsoft.com
+serviceshub.microsoft.com
+support.serviceshub.microsoft.com
+partner.microsoft.com
+securitypartners.transform.microsoft.com
+coach.microsoft.com
+dialin.teams.microsoft.com
+cqd.teams.microsoft.com
+answers.microsoft.com
+azure.microsoft.com
+msrc.microsoft.com
+appsource.microsoft.com
+developer.microsoft.com
+blogs.microsoft.com
+devblogs.microsoft.com
+planetarycomputer.microsoft.com
+cdx.transform.microsoft.com
+dev.teams.microsoft.com
+lti.microsoft.com
+news.microsoft.com
+careers.microsoft.com
 =======================================
-Dork: site:*.*.apple.com
+Dork: site:*.*.microsoft.com
 
 Results:
 
-offer.shazam.apple.com
-replay.music.apple.com
+visualstudiogallery.msdn.microsoft.com
+powerpoint.cloud.microsoft.com
+word.cloud.microsoft.com
+cmt3.research.microsoft.com
+about.ads.microsoft.com
+jobs.careers.microsoft.com
+events.teams.microsoft.com
+r.office.microsoft.com
+dmc.partner.microsoft.com
+support.serviceshub.microsoft.com
+catalog.update.microsoft.com
+hs.windows.microsoft.com
+unistore.www.microsoft.com
+query.prod.cms.rt.microsoft.com
+emails.azure.microsoft.com
 =======================================
-All results for apple.com:
 
-podcasts.apple.com
-support.apple.com
-apps.apple.com
-music.apple.com
-jobs.apple.com
-checkcoverage.apple.com
-developer.apple.com
-investor.apple.com
-tv.apple.com
-stocks.apple.com
-beta.apple.com
-itunesconnect.apple.com
-locate.apple.com
-store.apple.com
-discussions.apple.com
-regulatoryinfo.apple.com
-ecommerce.apple.com
-offer.shazam.apple.com
-replay.music.apple.com
+All results for microsoft.com:
 
-Number of subdomains: 19
+math.microsoft.com
+account.microsoft.com
+azure.microsoft.com
+create.microsoft.com
+support.microsoft.com
+copilot.microsoft.com
+learn.microsoft.com
+apps.microsoft.com
+devblogs.microsoft.com
+developer.microsoft.com
+adoption.microsoft.com
+techcommunity.microsoft.com
+msdn.microsoft.com
+careers.microsoft.com
+news.microsoft.com
+answers.microsoft.com
+clarity.microsoft.com
+forms.microsoft.com
+word.cloud.microsoft.com
+visualstudio.microsoft.com
+myaccount.microsoft.com
+rewards.microsoft.com
+events.teams.microsoft.com
+krs.microsoft.com
+r.office.microsoft.com
+dotnet.microsoft.com
+appsource.microsoft.com
+go.microsoft.com
+azureforeducation.microsoft.com
+unlocked.microsoft.com
+serviceshub.microsoft.com
+support.serviceshub.microsoft.com
+partner.microsoft.com
+securitypartners.transform.microsoft.com
+coach.microsoft.com
+dialin.teams.microsoft.com
+cqd.teams.microsoft.com
+msrc.microsoft.com
+blogs.microsoft.com
+planetarycomputer.microsoft.com
+cdx.transform.microsoft.com
+dev.teams.microsoft.com
+lti.microsoft.com
+visualstudiogallery.msdn.microsoft.com
+powerpoint.cloud.microsoft.com
+cmt3.research.microsoft.com
+about.ads.microsoft.com
+jobs.careers.microsoft.com
+dmc.partner.microsoft.com
+catalog.update.microsoft.com
+hs.windows.microsoft.com
+unistore.www.microsoft.com
+query.prod.cms.rt.microsoft.com
+emails.azure.microsoft.com
+
+Number of subdomains: 54
+
+========================================
 ========================================
 ```
