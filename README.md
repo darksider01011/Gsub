@@ -9,6 +9,10 @@
   -p, --probe          Enable probe mode
   -f, --file FILE      Set file name to write results
 ```
+### Install requirements 
+ ```bash
+ pip install -r requirements.txt
+ ```
 ### Probe Mode
 ```bash
 python3 Gsub.py -d example.com -p
