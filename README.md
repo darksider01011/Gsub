@@ -31,7 +31,7 @@ python3 Gsub.py -d example.com
          Powered By Google
 
 Mode: Normal
-File: a.txt
+File: output.txt
 Domain: microsoft.com
 IP: 255.255.255.255
 =======================================
