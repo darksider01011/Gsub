@@ -23,4 +23,100 @@ python3 Gsub.py -d example.com
 ```
 ![banner](./images/output.png "banner")
 
+```bash
+Mode: Normal
+Domain: apple.com
+IP: 2.147.191.31
+=======================================
+Dork: site:*.apple.com -www
+Please be patient...
 
+Results:
+
+podcasts.apple.com
+support.apple.com
+apps.apple.com
+music.apple.com
+jobs.apple.com
+checkcoverage.apple.com
+developer.apple.com
+investor.apple.com
+=======================================
+Dork: site:apple.com
+
+Results:
+
+tv.apple.com
+developer.apple.com
+apple.com
+support.apple.com
+stocks.apple.com
+beta.apple.com
+itunesconnect.apple.com
+checkcoverage.apple.com
+podcasts.apple.com
+locate.apple.com
+=======================================
+Dork: site:*.apple.com
+
+Results:
+
+apple.com
+checkcoverage.apple.com
+tv.apple.com
+developer.apple.com
+support.apple.com
+store.apple.com
+stocks.apple.com
+beta.apple.com
+itunesconnect.apple.com
+podcasts.apple.com
+music.apple.com
+apps.apple.com
+=======================================
+Dork: inurl:apple.com -www site:apple.com
+
+Results:
+
+support.apple.com
+music.apple.com
+developer.apple.com
+discussions.apple.com
+regulatoryinfo.apple.com
+apps.apple.com
+ecommerce.apple.com
+locate.apple.com
+=======================================
+Dork: site:*.*.apple.com
+
+Results:
+
+offer.shazam.apple.com
+replay.music.apple.com
+=======================================
+
+All results for apple.com:
+
+podcasts.apple.com
+support.apple.com
+apps.apple.com
+music.apple.com
+jobs.apple.com
+checkcoverage.apple.com
+developer.apple.com
+investor.apple.com
+tv.apple.com
+stocks.apple.com
+beta.apple.com
+itunesconnect.apple.com
+locate.apple.com
+store.apple.com
+discussions.apple.com
+regulatoryinfo.apple.com
+ecommerce.apple.com
+offer.shazam.apple.com
+replay.music.apple.com
+
+Number of subdomains: 19
+
+========================================```
