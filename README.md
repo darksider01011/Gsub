@@ -1,5 +1,5 @@
 # Gsub –  Unearth hidden subdomains with Google’s power 
-**Gsub** is a evasion-focused subdomain enumeration tool that uses **Google Dorks** to uncover hidden subdomains without triggering rate limits or CAPTCHAs. Designed for security professionals who prioritize stealth and completeness over raw speed. 
+**Gsub** is a subdomain enumeration tool that uses **Google Dorks** to uncover hidden subdomains without triggering rate limits or CAPTCHAs. Designed for security professionals who prioritize stealth and completeness over raw speed. 
 
 ![banner](./images/new-banner.png "banner")
 
