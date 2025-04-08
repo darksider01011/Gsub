@@ -14,7 +14,7 @@ from colorama import Fore, Back, Style
 
 # Argument parser
 parser = argparse.ArgumentParser(description='Unearth hidden subdomains with Google’s power', prog= 'Gsub.py', epilog= 'Example: python3 Gsub.py -d example.com')
-parser.add_argument('-d', '--domain', type=str, help='Set target domain', metavar= 'TARGET', default=False, required=True)
+parser.add_argument('-d', '--domain', type=str, help='Set target domain', default=False, required=True)
 parser.add_argument('-p', '--probe', help='Enable probe mode', action='store_true')
 parser.add_argument('-f', '--file', type=str,  help='Set file name to write results')
 args = parser.parse_args()
