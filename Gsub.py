@@ -327,6 +327,7 @@ if len(all_results) > 0 :
                 print("")
             except requests.exceptions.ConnectionError as e:
                 ee = str(e)
+                probe.append(str(f"{i}. {iiii} || Title: {ee[:60].strip()} || Status-code:{ee}"))
                 print(f" {i}. {iiii} | Title:Error: {ee[:20]} | Status-code:Error: {ee[:20]}")
                 print("")
 
