@@ -92,7 +92,7 @@ try:
     for i in search(www_query, start=1, stop=250, num=250, pause=thread, safe='on'):
         urls.append(i)
 except Exception as e:
-    print(e)
+    print(f'Error: {e}')
     err = str(e)
     if "429" in err:
         print("Error: Your IP address has been blocked by Google's servers")
@@ -133,7 +133,7 @@ try:
     for ii in search(simple_query,start=1,stop=250,num=250, pause=thread, safe='on'):
         urls.append(ii)
 except Exception as e:
-    print(e)
+    print(f'Error: {e}')
     err = str(e)
     if "429" in err:
         print("Error: Your IP address has been blocked by Google's servers")
@@ -174,7 +174,7 @@ try:
     for ii in search(wild_query,start=1,stop=250,num=250, pause=thread, safe='on'):
         urls.append(ii)
 except Exception as e:
-    print(e)
+    print(f'Error: {e}')
     err = str(e)
     if "429" in err:
         print("Error: Your IP address has been blocked by Google's servers")
@@ -215,7 +215,7 @@ try:
     for ii in search(inurl_query, start=1, stop=250, num=250, pause=thread, safe='on'):
         urls.append(ii)
 except Exception as e:
-    print(e)
+    print(f'Error: {e}')
     err = str(e)
     if "429" in err:
         print("Error: Your IP address has been blocked by Google's servers")
@@ -255,7 +255,7 @@ try:
     for ii in search(double_query, start=1, stop=250, num=250, pause=thread, safe='on'):
         urls.append(ii)
 except Exception as e:
-    print(e)
+    print(f'Error: {e}')
     err = str(e)
     if "429" in err:
         print("Error: Your IP address has been blocked by Google's servers")
