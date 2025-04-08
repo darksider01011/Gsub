@@ -1,0 +1,6 @@
+beautifulsoup4==4.13.3
+colorama==0.4.6
+google==3.0.0
+pyfiglet==1.0.2
+requests==2.32.3
+termcolor==3.0.1
